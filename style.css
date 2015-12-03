@@ -1,0 +1,172 @@
+body.main {
+    background: url('bg.jpg');
+    background-attachment: fixed;
+}
+
+body.login {
+    background: #aaa;
+}
+
+#main {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding: 10px 40px;
+    padding-bottom: 150px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#login {
+    margin-top: 15%;
+    margin-bottom: 150px;
+    padding: 50px;
+    padding-top: 60px;
+    background: rgba(255, 255, 255, 0.9);
+    width: 400px;
+}
+
+.btn-login {
+    width: 150px;
+}
+
+#login input.form-control {
+    border-radius: 0px;
+}
+
+#login button.btn {
+    border-radius: 0px;
+}
+
+#form-container {
+    width: 100%;
+}
+
+.profile {
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: 12px;
+    margin-left: 12px;
+    background-size: cover;
+    background-position: center;
+}
+
+.composer-profile {
+    width: 145px;
+    height: 145px;
+}
+
+.post-profile {
+    width: 100px;
+    height: 100px;
+}
+
+.comment-profile {
+    width: 40px;
+    height: 40px;
+}
+
+.composer {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.composer textarea {
+    width: 100%;
+    height: 150px;
+    max-width: 100%;
+    padding: 30px;
+    font-size: 20px;
+    font-family: "Segoe UI";
+}
+
+.composer .btn {
+    padding: 8px 27px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: "Segoe UI";
+    /*    margin-top: -64px;
+    margin-right: 1px;*/
+    margin-top: 12px;
+    margin-bottom: 12px;
+    /*    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;*/
+}
+
+.comment-composer .btn-comment{
+    margin-top:10px;
+}
+
+.timestamp {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+cite {
+    background: #aaa;
+    padding: 4px;
+    border-radius: 3px;
+    color: white;
+}
+
+.panel-body {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+}
+
+.header h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI';
+}
+
+#footer {
+    margin-top: 150px;
+}
+
+.copyright {
+    color: #aaa;
+}
+
+sub {
+    font-size: 10px;
+    padding: 10px;
+}
+
+.post-ctrl {
+    margin-top: 12px;
+    display: none;
+}
+
+.post-header {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: 'Segoe UI';
+}
+
+.post-header h3 a {
+    font-size: 15px;
+}
+
+.logout {
+    font-size: 20px;
+}
+
+
+a.danger {
+    color:red;
+}
+
+[id^=comment_box] {
+    display:none;
+}
+[id^=comment_list_box]{
+    display:none;
+}
+[data-comments-num="0"] {
+    display:none;
+}
+.comment-count{
+    margin-top:20px;
+}
+.buttons-ctrl {
+    margin-top:30px;
+}
